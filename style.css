@@ -1,0 +1,31 @@
+body{
+    height:50vh;
+    background-color: #808080a1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background-color:#fff;
+    width:30%;
+    height:25vh;
+    display: flex;
+    flex-direction: column;
+    border-radius:10px;
+    padding:10px;
+}
+input{
+    margin:10px;
+    margin-left: 0;
+}
+.error{
+    color: brown;
+    font-size: 14px;
+}
+.submit{
+    background-color: rgb(49, 167, 167);
+    border: none;
+    border-radius: 5px;
+    padding:10px;
+    color: #fff;
+}
